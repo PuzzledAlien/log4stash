@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4stash", "log4stash\log4stash.csproj", "{EBB04BCD-77BE-4F1D-97B2-C22600AA5C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log4stash", "log4stash\log4stash.csproj", "{EBB04BCD-77BE-4F1D-97B2-C22600AA5C4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D9B7094B-4717-4DF2-90EC-98DDD0D8D106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{166D1524-54B9-43A6-A93A-12DDB0377C01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EBB04BCD-77BE-4F1D-97B2-C22600AA5C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB04BCD-77BE-4F1D-97B2-C22600AA5C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB04BCD-77BE-4F1D-97B2-C22600AA5C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166D1524-54B9-43A6-A93A-12DDB0377C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166D1524-54B9-43A6-A93A-12DDB0377C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166D1524-54B9-43A6-A93A-12DDB0377C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166D1524-54B9-43A6-A93A-12DDB0377C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{166D1524-54B9-43A6-A93A-12DDB0377C01} = {D9B7094B-4717-4DF2-90EC-98DDD0D8D106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E69DE9C5-387A-476F-ADB7-81897B54B670}
